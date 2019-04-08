@@ -2,10 +2,11 @@
 
 # My Goal:
 
-![](/home/basecamp/web_dev/flexbox/html5-flex/images/replicate-1.png)
+![](https://github.com/ginggk/html5-flex/blob/master/images/replicate-1.png)
 
-![](/home/basecamp/web_dev/flexbox/html5-flex/images/replicate-2.png)
+![](https://github.com/ginggk/html5-flex/blob/master/images/replicate-2.png)
 
-![](/home/basecamp/web_dev/flexbox/html5-flex/images/replication-3.png)
+![](https://github.com/ginggk/html5-flex/blob/master/images/replication-3.png)
 
-@![](/home/basecamp/web_dev/flexbox/html5-flex/images/replication-4.png)
+![](https://github.com/ginggk/html5-flex/blob/master/images/replication-4.png)
+

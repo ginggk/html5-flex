@@ -11,9 +11,19 @@ body {
 
 .flex-links li {
     list-style: none;
-    padding: 2rem 0;
+
     text-align: center;
+}
+
+.flex-links a {
     width: 100%;
+    display: block;
+    padding: 2rem 0;
+}
+
+.flex-links li a:hover {
+    background-color: white;
+    color: #4acaa8;
 }
 
 .flex-links {
@@ -21,6 +31,7 @@ body {
     /* border: 10px solid chartreuse; */
     align-items: center;
     width: 100%;
+    font-size: 1.2rem;
 }
 
 .right-side {

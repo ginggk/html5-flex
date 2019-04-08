@@ -1,28 +1,63 @@
-.flex-links li {
-    list-style: none;
+body {
+    box-sizing: border-box;
 }
 
-.flex-sidebar {
+.flex-links li {
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+.flex-links {
+    flex: 1;
+    /* border: 10px solid chartreuse; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right-side {
     display: flex;
     background-color: #4acaa8;
     flex-direction: column;
     border: 10px solid red;
-    width: 20rem;
-    /* justify-content: center; */
+    /* width: 10rem; */
+    padding-top: 2rem;
     align-items: center;
-    height: 50rem;
+    height: 49.5rem;
+    flex-shrink: 0;
+    right: 0;
+    position: fixed;
+    width: 29rem;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .flex-image {
-    width: 150px;
-    border-radius: 600px;
+    width: 130px;
+    border-radius: 7rem;
+    padding-bottom: 1rem;
 }
 
 .link-text {
     text-decoration: none;
     color: white;
+    /* text-align: center; */
 }
 
 .description {
     color: gray;
+    padding-left: 1rem;
+}
+
+.name {
+    padding: 1rem;
+}
+
+.contacts a {
+    padding: 1rem;
+}
+
+.contacts {
+    display: flex;
+    /* border: 10px solid mistyrose; */
+    align-self: center;
 }

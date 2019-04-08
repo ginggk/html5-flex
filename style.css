@@ -1,0 +1,28 @@
+.flex-links li {
+    list-style: none;
+}
+
+.flex-sidebar {
+    display: flex;
+    background-color: #4acaa8;
+    flex-direction: column;
+    border: 10px solid red;
+    width: 20rem;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50rem;
+    flex-wrap: wrap;
+}
+.flex-image {
+    width: 150px;
+    border-radius: 600px;
+}
+
+.link-text {
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    color: gray;
+}

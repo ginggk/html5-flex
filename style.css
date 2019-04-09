@@ -88,8 +88,17 @@ body {
     align-self: center;
 }
 
-.flex-links .line-color {
+/* .flex-links .line-color {
     color: rgba(255, 255, 255, 0.246);
+} */
+
+.line-color {
+    color: rgba(255, 255, 255, 0.246);
+}
+
+.line-color2 {
+    color: rgba(255, 255, 255, 0.376);
+    font-size: 10px;
 }
 
 .padding-desc {
@@ -117,10 +126,6 @@ body {
     font-size: 1.7rem;
 
     color: rgba(128, 128, 128, 0.918);
-}
-
-.other-description {
-    padding-top: 0.5rem;
 }
 
 .text-link {
@@ -171,7 +176,7 @@ body {
 }
 
 #second-section {
-    border-top: 10px solid rgba(128, 128, 128, 0.253);
+    border-top: 5px solid rgba(128, 128, 128, 0.253);
     width: 100%;
     padding-left: 6.5rem;
 }
@@ -179,4 +184,71 @@ body {
 #first-section {
     padding-left: 6.5rem;
     padding-bottom: 2rem;
+}
+
+#third-section {
+    padding-left: 6.5rem;
+    border-top: 5px solid rgba(128, 128, 128, 0.253);
+    width: 100%;
+}
+
+.pic1 {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    /* border: 10px solid greenyellow; */
+}
+
+.pic2 {
+    display: flex;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.pic3 {
+    display: flex;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+/* .things-pics {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+} */
+
+.pic1 img {
+    width: 30px;
+    height: 250px;
+    border-radius: 5px;
+    flex: 1;
+    display: block;
+    /* padding: 2rem; */
+}
+
+.pic2 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.pic3 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.inner-div {
+    padding: 1rem;
+    /* padding-top: 2rem; */
+    /* font-weight: bold; */
+    /* font-size: 20rem; */
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.pic-caption {
+    color: rgba(136, 133, 133, 0.918);
+    font-weight: bold;
 }
